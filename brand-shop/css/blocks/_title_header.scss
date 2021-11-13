@@ -1,0 +1,26 @@
+.title {
+    background-color: #F1E4E6;
+    min-height: 760px;
+}
+.title-wrap {
+    display: flex;
+    align-items: center;
+    min-height: 760px;
+    justify-content: flex-end;
+    background-image: url("../img/header-background.png");
+    background-position: -220px bottom;
+    background-repeat: no-repeat;
+}
+.heading {
+    width: 400px;
+    margin-right: 95px;
+    font-weight: 900px;
+    font-size: 48px;
+}
+.heading-small {
+    font-weight: 700px;
+    font-size: 32px;
+}
+.heading-pink {
+    color: #F16D7F;
+}
