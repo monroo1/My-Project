@@ -1,0 +1,29 @@
+.feature-wrap {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 70px calc(50% - 1140px / 2);
+    background-color: #222224;
+}
+.feature-item {
+    max-width: 360px;
+    margin: 30px 0 ;
+}
+.feature-logo {
+    text-align: center;
+}
+.feature-title {
+    margin-top: 28px;
+    margin-bottom: 16px;
+    font-size: 19.96px;
+    line-height: 24px;
+    text-align: center;
+    color: #FBFBFB;
+}
+.feature-description {
+    font-weight: 300;
+    font-size: 13.972px;
+    line-height: 17px;
+    text-align: center;
+    color: #FBFBFB;
+}

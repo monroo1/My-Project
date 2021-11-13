@@ -1,0 +1,32 @@
+.footer {
+    background-color: #222224;
+}
+.footer-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-cop {
+    font-size: 16px;
+    line-height: 19px;
+    color: #FBFBFB;
+}
+.footer-right {
+    display: flex;
+}
+.social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #222;
+    margin-left: 10px;
+    font-size: 16px;
+    width: 32px;
+    height: 32px;
+
+    &:hover {
+        background-color: $pink;
+        color: white;
+    }
+}

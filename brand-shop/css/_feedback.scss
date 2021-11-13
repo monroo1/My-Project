@@ -1,0 +1,66 @@
+.feedback-wrap {
+    background-image: url("../img/feedback-background.png");
+    background-size: cover;
+    padding: 100px calc(50% - 1140px / 2);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.review {
+    max-width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.review-img {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+.review-par {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #222224;
+}
+.form-feedback-title {
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #222224;
+}
+.form-feedback-description {
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #222224;
+    font-weight: 400;
+}
+.form-feedback {
+    margin-top: 30px;
+    display: flex;
+}
+.form-feedback-email {
+    background: #E1E1E1;
+    padding: 20px;
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.form-feedback-btn {
+    background: #F16D7F; 
+    color: #FFFFFF;
+    text-align: center;
+    border: none;
+    padding: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    &:hover {
+        background-color: #fff;
+        color: $pink;
+        outline: 1px solid $pink;
+    }
+}

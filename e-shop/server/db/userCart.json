@@ -1,5 +1,13 @@
 {
-    "amount": 0,
-    "countGoods": 0,
-    "contents": []
+    "amount": 1000,
+    "countGoods": 1,
+    "contents": [
+        {
+            "quantity": 1,
+            "id_product": 456,
+            "product_name": "Мышка",
+            "price": 1000,
+            "img": "/img/catalog/456.jpg"
+        }
+    ]
 }

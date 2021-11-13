@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-family: 'Lato', sans-serif;
+}
+.wrap {
+    max-width: 1140px;
+    min-height: 75px;
+    margin: 0 auto;
+}
+.hidden {
+    visibility: hidden;
+}
