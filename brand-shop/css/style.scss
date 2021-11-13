@@ -1,3 +1,4 @@
+$pink: #F16D7F;
 * {
     margin: 0;
     padding: 0;
@@ -162,6 +163,12 @@ body {
     font-size: 16px;
     line-height: 19px;
     color: #F26376;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $pink;
+        color: white;
+    }
 }
 .feature-wrap {
     display: flex;
