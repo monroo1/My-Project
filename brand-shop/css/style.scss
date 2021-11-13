@@ -1,10 +1,10 @@
-// var
 @import "_var.scss";
-// base style all page
+@import "_mikh.scss";
 @import "_main.scss";
-// blocks
+
 @import "blocks/_header.scss";
-@import "blocks/_categories.scss";
+@import "blocks/_title_header.scss";
+@import "blocks/_caregories.scss";
 @import "blocks/_products.scss";
 @import "blocks/_feature.scss";
 @import "blocks/_feedback.scss";
