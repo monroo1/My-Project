@@ -1,3 +1,9 @@
+.heading-block{
+    background-color: $pink;
+    width: 12px;
+    height: 92px;
+    margin-right: 16px;
+}
 .title {
     background-color: #F1E4E6;
     min-height: 760px;
@@ -17,6 +23,7 @@
     margin-right: 95px;
     font-weight: 900px;
     font-size: 48px;
+    line-height: 0.8;
 }
 .heading-small {
     font-weight: 700px;
